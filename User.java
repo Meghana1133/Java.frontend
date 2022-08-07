@@ -121,7 +121,7 @@ public class UserRegistration extends JFrame {
                 String msg= " "+firstname;
                 msg+="\n";
                 if(len!=10) {
-                    JOptionPane.showMessageDialog(b, "Enter valid mobile number");
+                    JOptionPane.showMessageDialog(b, "Enter a valid mobile number");
                 }
                 try {
                     Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/swing_project","root","root");
